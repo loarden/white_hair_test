@@ -74,7 +74,11 @@ form {
 }
 
 select:invalid {
-  color: var(--text-color);
+  color: gray;
+}
+
+option {
+  color: black;
 }
 
 input[type="submit"] {
