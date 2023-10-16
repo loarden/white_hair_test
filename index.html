@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <title>White Hair Szalon Probafeladat</title>
+  </head>
+  <body>
+    <main>
+      <div class="form-container">
+        <h1>Regisztráció</h1>
+        <form action="/" >
+          <div>
+            <input class="input" type="text" id="name" placeholder="Teljes Név"/>
+            <p class="error"></p>
+          </div>
+          <div>
+            <input class="input" type="text" id="email" placeholder="Email cím"/>
+            <p class="error"></p>
+          </div>
+          <div>
+            <input class="input" type="text" id="val-email" placeholder="Email cím megerősítése"/>
+            <p class="error"></p>
+          </div>
+          <div>
+            <select class="input" name="dropdown" id="select" placeholder="Hol hallott rólunk?">
+              <option value="" selected disabled hidden>Hol hallott rolunk?</option>
+              <option value="internet">Internetről</option>
+              <option value="television">Televízióból</option>
+              <option value="other">Egyéb helyről</option>
+            </select>
+            <p class="error"></p>
+          </div>
+          <div class="checkbox">
+            <input id="checkbox" type="checkbox">
+            Elfogadom az adatvédelmi szabályzatot!
+            <p class="error"></p>
+          </div>
+          <input class="input" type="submit" value="Regisztráció" />
+        </form>
+        <div class="success-registration">
+          <p>Sikeres regisztráció!</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
